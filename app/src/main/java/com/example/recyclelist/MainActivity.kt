@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Sample data
-        val data = listOf("Item 1", "Item 2", "Item 3", "Item 4", "Item 5")
+        val data = listOf("Item 1", "Item 2", "Item 3", "Item 4", "Item 5" , "Item 6")
 
         // RecyclerView setup
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
